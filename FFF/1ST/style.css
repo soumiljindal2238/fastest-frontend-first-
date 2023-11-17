@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: rgb(179, 146, 255);
+    font: black ;
+    font-size: 1.1em;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+    width: 30vw;
+}
+
+#logo{
+    width: 16em;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    padding: 24px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+nav ul a:hover {
+    /* color: rgb(247, 37, 37); */
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+}
+
+.image_bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/FFF/Archive/Rectangle\ 1.png);
+    background-size: auto;
+}
+
+.border{
+    border-radius: 30px;
+    display: inline;
+    color: white;
+}
+
+.p1{
+    background: #000;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(179, 146, 255);
+    font: black ;
+    font-size: 1.1em;
+    min-height: 14vh;
+    width: 100%;
+}
+.subscribe_text{
+    padding: 10px 20px;
+    margin-left: 4vw ;
+    width: 30vw;
+    font-size: 1em;
+    
+}
+
+.letsdoit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+.subscribe_text2{
+    width: 12%;
+}
+
+.subscribe_button{
+    width: 70%;
+}
+
+#email_input{
+    width: 500px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px 12px;
+}
+main button{
+    border-radius: 100px;
+    border: none;
+    padding: 12px 12px;
+    color: white;
+    background: #000;
+    
+}
+
+footer{
+   min-height: 50vh ;
+   background: #272727;
+   color: white;
+}
+
+.inline{
+    display: inline;
+    width: 87px;
+    margin: 20px;
+}
+
+

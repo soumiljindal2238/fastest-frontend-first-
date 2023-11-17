@@ -1,0 +1,111 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(97, 255, 255);
+    background-size: cover;
+}
+.img20{
+    position: absolute;
+    top: 0;
+}
+
+.img21{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+.container{
+    height: 70vh;
+    width: 60vw;
+    margin: 15vh auto;
+    background: white;
+    display: flex;
+    
+}
+.half1{
+    width: 50%;
+    height: 100%;
+    padding: 12px;
+    
+}
+.img2{
+    height: 100%;
+}
+
+.half2{
+    width: 48%;
+    height: 100%;
+    padding: 12px;
+    /* text-align: center; */
+}
+
+.half2 h1{
+    padding: 20px;
+}
+
+.half2 p{
+    padding: 12px;
+}
+
+.p1{
+    letter-spacing: 6px;
+}
+
+.btn1{
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    background: white;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.p2{
+    letter-spacing: 3px;
+    padding: 30px;
+    font: 300;
+    font-size: 12px;
+}
+
+.email_signup{
+    margin-top: 20px;
+    height: 45%;
+    width: 100%;
+    background: rgb(167, 247, 247);
+    border-radius: 30px;
+    padding: 20px 30px;
+
+}
+
+.username{
+    width: 100%;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.password{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.btn2{
+    display: block;
+    margin-top: 20px;
+    margin-left: 120px;
+    padding: 12px;
+    border-radius: 30px;
+    width: 120px;
+    background: blue;
+    color: white;
+}
